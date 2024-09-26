@@ -1,0 +1,32 @@
+:root {
+    --branco: #ffff;
+    --gelo: #f1f1f1;
+    --red: #c41919;
+    --preto: #2a2a2a;
+}
+
+.toolbar{
+    height: 80px;
+}
+
+.tab-link{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.toolbar-inner .link{    
+    flex:1;
+    height: 80px;  
+    line-height: 25px; 
+	font-weight:bold;    
+}
+
+.toolbar-inner .link:not(.active){
+    color:rgb(167, 167, 167);
+	font-weight:normal;
+}
+
+.toolbar-inner > .link i{
+    font-size: 28px;
+}
