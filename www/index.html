@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <!-- Required meta tags-->
     <meta charset="utf-8">
@@ -17,8 +16,6 @@
     <link rel="stylesheet" href="css/index.css">
     <!--Ícones Material Design-->
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
-
-
 </head>
 
 <body>
@@ -54,17 +51,29 @@
             <div data-name="index" class="page color-theme-blue">
 
                 <!-- Top Navbar -->
-                <div class="navbar">
-                    <div class="navbar-bg"></div>
-                    <div class="navbar-inner justify-content-center">
-                        <div class="title ">AlarmMe</div>
-                    </div>
+                <div class="top-nav">
+                    <h1 class="title-logo"><span>Alarm</span>Me</h1>
                 </div>
 
                 <!-- Scrollable page content -->
                 <div class="page-content">
                     <div class="block">
-                        Conteúdo do link 1
+                        <form id="dateMessageForm">
+                            <h2>Adicionar Data e Mensagem</h2>
+
+                            <input type="date" id="date" name="date" required>
+                            
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            
+                            <button type="submit">Adicionar</button>
+
+                            <div class="datas">
+                                <h2>Datas salvas: </h2>
+                                <div class="datas-salvas">
+
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -77,6 +86,6 @@
     <!-- Roteamento do app-->
     <script type="text/javascript" src="js/routes.js"></script>
     <script src="cordova.js"></script>
+    <script src="js/database.js"></script>
 </body>
-
 </html>

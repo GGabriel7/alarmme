@@ -27,6 +27,7 @@ var app = new Framework7({
 		},
 		pageAfterIn: function (event, page) {
 		// fazer algo depois da página ser exibida
+    displaySavedMessages();
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
