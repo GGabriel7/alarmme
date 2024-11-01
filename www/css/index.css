@@ -74,7 +74,7 @@ form {
     font-size: 18px;
     font-weight: 700;
     border: 1px solid var(--preto);
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
 input, textarea {
@@ -111,5 +111,5 @@ button:hover {
     max-height: 200px;
     overflow-y: scroll;
     border: 1px solid #ccc;
-    padding: 2px;
+    padding: 5px;
 }

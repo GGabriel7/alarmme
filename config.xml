@@ -8,4 +8,15 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+
+    <icon src="resources/icon.png" density="xxxhdpi" />
+    <icon src="resources/icon.png" density="xxhdpi" />
+    <icon src="resources/icon.png" density="xhdpi" />
+    <icon src="resources/icon.png" density="hdpi" />
+    <icon src="resources/icon.png" density="mdpi" />
+
+    <icon src="resources/icon.png" width="60" height="60" />
+    <icon src="resources/icon.png" width="120" height="120" />
+    <icon src="resources/icon.png" width="76" height="76" />
+    <icon src="resources/icon.png" width="152" height="152" />
 </widget>
